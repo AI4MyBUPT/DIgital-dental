@@ -43,3 +43,10 @@ We provide a pre-trained model for testing purposes:
 cd aagt/experiment
 CUDA_VISIBLE_DEVICES=1 python test.py --snapshot /../../pretrained.pth.tar
 ```
+
+## Dataset Description
+The training dataset consists of 425 orthodontic patients, yielding a total of 850 paired CBCT and intraoral scan samples. The cohort included 41.9% male subjects, with a mean age of 18.5 years (range: 10–40 years).
+
+CBCT images were acquired using the DCT PRO Dentofacial CBCT system, while intraoral scans were obtained using the 3Shape TRIOS 5 intraoral scanner. The dataset covers a diverse range of clinical conditions, including normal occlusion (72.1%), severe dental crowding (26.0%), missing teeth (2.4%), and subjects undergoing fixed orthodontic treatment with brackets (0.5%).
+
+All data were de-identified prior to use and were collected from Peking University School and Hospital of Stomatology. The study was approved by the institutional ethics committee (Approval No. PKUSSIRB-2025115199). Dataset can be available at https://pan.quark.cn/s/fd2dc541f9ef now.
