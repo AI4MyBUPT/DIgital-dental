@@ -18,7 +18,7 @@ from loss import Evaluator
 
 def make_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--benchmark', default='3DMatch', choices=['3DMatch', '3DLoMatch', 'val', '3DS', '3DSim', '3DS_Aug_2', '3DS_infer'], help='test benchmark')
+    parser.add_argument('--benchmark', default='3DS', choices=['3DMatch', '3DS'], help='test benchmark')
     return parser
 
 
