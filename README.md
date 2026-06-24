@@ -15,7 +15,7 @@ pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --e
 pip install -r requirements.txt
 python setup.py build develop
 
-cd aagt/extentions/pointops/
+cd aagt/extensions/pointops/
 pip install -v . --no-build-isolation
 ```
 
@@ -41,5 +41,5 @@ CUDA_VISIBLE_DEVICES=GPUs python trainval.py
 We provide a pre-trained model for testing purposes:
 ```bash
 cd aagt/experiment
-CUDA_VISIBLE_DEVICES=1 python test.py --snapshot /../../pretrained.pth.tar --benchmark 3DS
+CUDA_VISIBLE_DEVICES=1 python test.py --snapshot /../../pretrained.pth.tar
 ```
